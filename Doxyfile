@@ -54,6 +54,17 @@ USE_MDFILE_AS_MAINPAGE = README.md
 
 OUTPUT_DIRECTORY       = documentation
 
+# The EXCLUDE_SYMBOLS tag can be used to specify one or more symbol names
+# (namespaces, classes, functions, etc.) that should be excluded from the
+# output. The symbol name can be a fully qualified name, a word, or if the
+# wildcard * is used, a substring. Examples: ANamespace, AClass,
+# AClass::ANamespace, ANamespace::*Test
+#
+# Note that the wildcards are matched against the file with absolute path, so to
+# exclude all test directories use the pattern */test/*
+
+EXCLUDE_SYMBOLS        = _*, 
+
 # If the CREATE_SUBDIRS tag is set to YES then doxygen will create 4096 sub-
 # directories (in 2 levels) under the output directory of each output format and
 # will distribute the generated files over these directories. Enabling this
@@ -884,17 +895,6 @@ EXCLUDE_SYMLINKS       = NO
 # exclude all test directories for example use the pattern */test/*
 
 EXCLUDE_PATTERNS       = 
-
-# The EXCLUDE_SYMBOLS tag can be used to specify one or more symbol names
-# (namespaces, classes, functions, etc.) that should be excluded from the
-# output. The symbol name can be a fully qualified name, a word, or if the
-# wildcard * is used, a substring. Examples: ANamespace, AClass,
-# AClass::ANamespace, ANamespace::*Test
-#
-# Note that the wildcards are matched against the file with absolute path, so to
-# exclude all test directories use the pattern */test/*
-
-EXCLUDE_SYMBOLS        = _*, AzureHelpers
 
 # The EXAMPLE_PATH tag can be used to specify one or more files or directories
 # that contain example code fragments that are included (see the \include

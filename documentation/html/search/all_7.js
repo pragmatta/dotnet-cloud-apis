@@ -1,0 +1,8 @@
+var searchData=
+[
+  ['httpcalculatebasicauthentication',['httpCalculateBasicAuthentication',['../class_rational_zone_1_1v4_1_1_utils.html#afea8d59df6e2774b49bde8089b23361a',1,'RationalZone::v4::Utils']]],
+  ['httpgetparameterasstring',['httpGetParameterAsString',['../class_rational_zone_1_1v4_1_1_utils.html#a65ec57fedbbdf6dc195c996938e57ad4',1,'RationalZone::v4::Utils']]],
+  ['httprequest',['httpRequest',['../class_rational_zone_1_1v4_1_1_utils.html#a558d1da8210387e52d8752c149cd11a2',1,'RationalZone.v4.Utils.httpRequest(string url, out string result)'],['../class_rational_zone_1_1v4_1_1_utils.html#a47b02379fd4ef4451b7d68cbe93b9a99',1,'RationalZone.v4.Utils.httpRequest(string url, string method, string body, Dictionary&lt; string, string &gt; parameters, Dictionary&lt; string, string &gt; headers, Dictionary&lt; string, string &gt; response_headers, out string result)']]],
+  ['httprequestasync',['httpRequestAsync',['../class_rational_zone_1_1v4_1_1_utils.html#ac2a62f4bf69a513c4028089946078084',1,'RationalZone.v4.Utils.httpRequestAsync(string url)'],['../class_rational_zone_1_1v4_1_1_utils.html#ad72c8cabd150c5cbfb34d8feb1b1266a',1,'RationalZone.v4.Utils.httpRequestAsync(string url, string method, string body, string[] headers)']]],
+  ['httpurladdparameters',['httpUrlAddParameters',['../class_rational_zone_1_1v4_1_1_utils.html#af3b558d0c0d59e5cd668afedf889e9df',1,'RationalZone.v4.Utils.httpUrlAddParameters(string url, Dictionary&lt; string, string &gt; parameters)'],['../class_rational_zone_1_1v4_1_1_utils.html#ada1d9534b3208c3365c7fcdf9e78f2d1',1,'RationalZone.v4.Utils.httpUrlAddParameters(string url, string parameters)']]]
+];
