@@ -51,7 +51,7 @@ Dictionary<string, string> parameters = new Dictionary<string, string> {
     { "max_results", 100},
     { "mode", "filename" }
 };
-executeRequest("2/files/search", "GET", null, parameters);
+string result = executeRequest("2/files/search", "GET", null, parameters);
 ```
 
 
