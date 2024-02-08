@@ -56,7 +56,7 @@ string result = executeRequest("2/files/search", "GET", null, parameters);
 
 
 ## Documentation
-See [**http://github.com/RationalMatta/dotnet-cloud-apis/blob/master/documentation/html/annotated.html**](http://htmlpreview.github.io/?https://github.com/RationalMatta/dotnet-cloud-apis/blob/master/documentation/html/annotated.html) for more
+See [**https://github.com/pragmatta/dotnet-cloud-apis/blob/master/documentation/html/annotated.html**](http://htmlpreview.github.io/?https://github.com/pragmatta/dotnet-cloud-apis/blob/master/documentation/html/annotated.html) for more
 
 ## Changelog
 ### v4.1.1
